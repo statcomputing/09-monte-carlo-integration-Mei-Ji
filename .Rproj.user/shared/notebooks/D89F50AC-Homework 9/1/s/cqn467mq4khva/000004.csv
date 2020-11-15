@@ -1,0 +1,4 @@
+"0","library(ggplot2)"
+"0","p <- ggplot(data = data.frame(x = 0), mapping = aes(x = x))+"
+"0","  labs(x = 'x', y = 'H(x)', title='Curve of H(x)')"
+"0","p + stat_function(fun = Hx,col=""steelblue"") + xlim(-5,9)"
